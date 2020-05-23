@@ -1,0 +1,79 @@
+
+.hopper {
+  display: flex;
+  width: 100px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.marble {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: silver;
+}
+
+.stick {
+  display: flex;
+  height: 5px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 3px;
+  
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#indigo {
+  background-color: indigo;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#green {
+  background-color: green;
+}
+
+#violet {
+  background-color: violet;
+}
+
+#pink {
+  background-color: pink;
+}
+
+#cyan {
+  background-color: cyan;
+}
+
+#black {
+  background-color: black;
+}
+
+#purple {
+  background-color: purple;
+}
+
+.failPile {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  flex-flow: row;
+  justify-content: center;
+}
